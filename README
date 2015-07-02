@@ -1,3 +1,21 @@
-https://github.com/kafeman/cpp-boilerplate
+C++ Cookiecutter
+================
+Forked from https://github.com/kafeman/cpp-boilerplate
 
-CppBoilerplate is a minimal C++ boilerplate that I use for my own projects.
+Build
+-----
+
+Compile the cpp app
+
+```
+make
+```
+
+Generate doxygen and sphinx documentation
+
+```
+doxygen doc/doxygen.cfg
+cd doc && make html
+```
+
+The app and the documentation is available in the `build`-directory.
