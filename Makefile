@@ -1,2 +1,3 @@
+
 cpp_boilerplate:
-	cd src && g++ -o ../bin/test main.cc application.cc
+	mkdir -p build/bin && cd src && g++ -o ../build/bin/test main.cc application.cc
